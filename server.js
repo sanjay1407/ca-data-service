@@ -10,7 +10,7 @@ import logger from "./src/middleware/logger";
 
 const app = express();
 
-const publicDir = path.resolve(__dirname, "public");
+const publicDir = path.resolve(__dirname, "dist");
 const loggerDir = path.resolve(__dirname, "log");
 
 app.use(express.static(publicDir));

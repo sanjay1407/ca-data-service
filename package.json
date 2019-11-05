@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a basic node express boilerplate kit that comes with ES6, Mocha tests and test coverage reports.",
   "scripts": {
-    "prebuild": "npm run lint && npm run clean && mkdirp dist/public && ncp public dist/public",
+    "prebuild": "npm run lint && npm run clean && mkdirp dist/public && ncp dist/public dist/public",
     "build": "webpack -p --config=webpack.prod.config.babel.js",
     "clean": "rimraf dist",
     "dev": "nodemon server.js --exec babel-node",
