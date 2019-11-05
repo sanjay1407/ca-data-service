@@ -235,3 +235,66 @@ export const user = {
     }
   ]
 };
+
+export const snoopUrls = [
+  {
+    url:
+      "https://www.easy.cl/tienda/producto/anticorrosivo-maestranza-1-4-gl-negro-sipa-102785p",
+    site: "easy",
+    weight: 100
+  },
+  {
+    url:
+      "https://www.easy.cl/tienda/producto/anticorrosivo-maestranza-1-4-gl-rojo-maestranza-sipa-102787p",
+    site: "easy",
+    weight: 75
+  },
+  {
+    url:
+      "https://www.easy.cl/tienda/producto/anticorrosivo-maestranza1-4-gl-gris-sipa-102783--5p",
+    site: "easy",
+    weight: 72.91666666666666
+  },
+  {
+    url:
+      "https://www.easy.cl/tienda/producto/anticorrosivo-agua-1-4-gl-negro-tricolor-1128227p",
+    site: "easy",
+    weight: 64.28571428571429
+  },
+  {
+    url:
+      "https://www.easy.cl/tienda/producto/anticorrosivo-maestro-verde-1-4-galón-tricolor-102755p",
+    site: "easy",
+    weight: 63.04347826086957
+  },
+  {
+    url:
+      "https://www.easy.cl/tienda/producto/anticorrosivo-agua-1-gl-negro-tricolor-1128226p",
+    site: "easy",
+    weight: 59.523809523809526
+  },
+  {
+    url:
+      "https://www.easy.cl/tienda/producto/anticorrosivo-estructural-negro-1-4-galón-ceresita-452557p",
+    site: "easy",
+    weight: 57.99999999999999
+  },
+  {
+    url:
+      "https://www.easy.cl/tienda/producto/anticorrosivo-negro-1-4-galón-tricolor-102730p",
+    site: "easy",
+    weight: 57.14285714285714
+  },
+  {
+    url:
+      "https://www.easy.cl/tienda/producto/anticorrosivo-estructural-rojo-1-4-galón-ceresita-452555p",
+    site: "easy",
+    weight: 57.14285714285714
+  },
+  {
+    url:
+      "https://www.easy.cl/tienda/producto/anticorrosivo-1galón-estructural-negro-ceresita-452556p",
+    site: "easy",
+    weight: 55.319148936170215
+  }
+];
