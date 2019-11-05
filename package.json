@@ -10,8 +10,8 @@
     "lint": "esw webpack.config.* src --color",
     "lint:watch": "npm run lint -- --watch",
     "preprod": "npm run build",
-    "prod": "NODE_ENV=production node dist/app.build.js",
-    "start": "npm-run-all --parallel dev lint:watch",
+    "start": "NODE_ENV=production node dist/app.build.js",
+    "local": "npm-run-all --parallel dev lint:watch",
     "test": "NODE_ENV=test babel-node ./node_modules/.bin/babel-istanbul cover ./node_modules/.bin/_mocha test/**/*.spec.js"
   },
   "author": {
