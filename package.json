@@ -39,6 +39,7 @@
     "express": "^4.15.4",
     "morgan": "^1.8.2",
     "path": "^0.12.7",
+    "phantom": "^6.3.0",
     "rotating-file-stream": "^1.2.2"
   },
   "devDependencies": {
