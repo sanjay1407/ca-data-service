@@ -7,7 +7,7 @@ import bodyParser from "body-parser";
 
 import router from "./src/controller";
 import logger from "./src/middleware/logger";
-
+import { port } from "./constants";
 const app = express();
 
 const publicDir = path.resolve(__dirname, "dist");
@@ -21,7 +21,6 @@ app.use(logger("combined", loggerDir));
 
 app.use("/", router);
 
-const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Environment: ${app.get("env")}`);
   console.log(`Logger Dir: ${loggerDir}`);

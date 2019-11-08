@@ -1,7 +1,7 @@
 import { Router } from "express";
 const request = require("request");
 const router = new Router();
-
+import { baseUrl } from "../../constants";
 const computerScore = ({ specCount, imageCount, wordCount }) => {
   return {
     specScore: specCount / (20 / 100),
@@ -52,7 +52,7 @@ async function getEasyProduct(postData) {
   });
 }
 async function getEasyUrl(keyword) {
-  const endPoint = "http://localhost:3000/snoopdog";
+  const endPoint = `${baseUrl}snoopdog`;
   return new Promise((ressolve, rej) => {
     request(endPoint, function(err, res, body) {
       if (!err) {
