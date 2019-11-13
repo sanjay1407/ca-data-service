@@ -5,11 +5,12 @@ const congelador = "congelador-industrial-horizontal-203-litros-blanco";
 const frague = "frague-Rose-1-kilo";
 
 router.get("/", (req, res) => {
-  const { pname } = req.query;
+  let key;
+  const { name } = req.query;
   let snoopUrls = [];
-  if (pname === congelador) {
+  if (name === congelador) {
     key = "congelador";
-  } else if (pname === frague) {
+  } else if (name === frague) {
     key = "frague";
   }
   snoopUrls = getSnoopUrls(key);
